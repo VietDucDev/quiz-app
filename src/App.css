@@ -1,0 +1,4 @@
+.app-wrapper {
+  display: grid;
+  place-items: center;
+}

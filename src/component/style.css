@@ -1,0 +1,177 @@
+.start-conten {
+  color: white;
+}
+
+.start-btn {
+  padding: 10px 25px;
+  background-color: #6ed5b7;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.start-btn:hover {
+  color: white;
+  background-color: #2ca775;
+}
+/* in game */
+
+.ingame-btn button {
+  width: 80px;
+  padding: 10px 0;
+  border: 0;
+  border-radius: 7px;
+  margin: 60px 10px;
+  cursor: pointer;
+}
+
+.prev-btn {
+  background-color: #6b7280;
+  color: white;
+}
+.prev-btn:hover {
+  background-color: #9298a3;
+}
+.next-btn {
+  background-color: #6ed5b7;
+}
+.next-btn:hover {
+  color: white;
+  background-color: #2ca775;
+}
+.submit-btn {
+  background-color: #f59e0b;
+  color: white;
+}
+.submit-btn:hover {
+  background-color: #f77f1e;
+}
+.questions-container {
+  background-color: whitesmoke;
+  width: 500px;
+  height: 200px;
+  text-align: center;
+  border-radius: 7px;
+  position: relative;
+  margin: 30px 0;
+}
+
+.timer {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 50%;
+  transform: translate(50%, -50%);
+  background-color: whitesmoke;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+circle {
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 5px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  animation: anim 211s linear forwards;
+}
+
+svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(-90deg);
+}
+
+@keyframes anim {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.questions-content {
+  margin-top: 50px;
+}
+.answer-item {
+  background-color: whitesmoke;
+  width: 400px;
+  height: 30px;
+  padding: 5px 10px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  border: 1px solid whitesmoke;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.selected-item {
+  background-color: #312e81;
+  border: 1px solid white;
+  color: white;
+}
+
+.answer-item:hover {
+  background-color: #312e81;
+  border: 1px solid white;
+  color: white;
+}
+
+/* End game */
+.end-game-content {
+  color: whitesmoke;
+}
+
+.end-btn-container button {
+  width: 80px;
+  padding: 10px 0;
+  border: 0;
+  border-radius: 7px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.tryAgain-btn {
+  background-color: #6ed5b7;
+}
+.tryAgain-btn:hover {
+  color: white;
+  background-color: #2ca775;
+}
+.review-btn {
+  background-color: #ef4444;
+  color: white;
+}
+.review-btn:hover {
+  background-color: #ee5e5ec7;
+}
+
+.disabled-button {
+  pointer-events: none;
+  background-color: rgba(229, 231, 235);
+  color: rgba(209, 213, 219);
+}
+/* Review */
+.answer-item-review {
+  background-color: whitesmoke;
+  width: 400px;
+  height: 30px;
+  padding: 5px 10px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  border: 1px solid whitesmoke;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.incorrect-answer {
+  background-color: #ef4444;
+  border: 1px solid white;
+  color: white;
+}
+.correct-answer {
+  background-color: #10b981;
+}
