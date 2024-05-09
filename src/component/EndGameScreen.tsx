@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import { Fragment } from "react";
 import "./style.css";
 
 const EndGameScreen = ({ data, onDataChange }: any) => {

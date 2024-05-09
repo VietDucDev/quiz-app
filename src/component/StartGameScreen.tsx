@@ -1,7 +1,7 @@
-import React, { Fragment } from "react";
+import { Fragment } from "react";
 import "./style.css";
 
-const StartGameScreen = ({ data, onDataChange }: any) => {
+const StartGameScreen = ({ onDataChange }: any) => {
   const handleButtonClick = () => {
     onDataChange(2);
   };

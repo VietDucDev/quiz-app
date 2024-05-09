@@ -1,14 +1,14 @@
-import React, { Fragment, useEffect, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import "./style.css";
 import questionsData from "../data/questions.json";
 
-const InGameScreen = ({ data, onDataChange }: any) => {
+const InGameScreen = ({ onDataChange }: any) => {
   const [timeLeft, setTimeLeft] = useState(90);
   const [quesId, setQuesId] = useState(0);
   const [selectedAnswerIndices, setSelectedAnswerIndices] = useState<string[]>([
     "",
   ]);
-  const [submit, setSubmit] = useState(false);
+  // const [submit, setSubmit] = useState(false);
   const correctAnswers: { question: string; answer: string }[] = [];
   let point: number = 0;
   let [colorCircle, setColorCircle] = useState("#0063d7");
@@ -92,7 +92,7 @@ const InGameScreen = ({ data, onDataChange }: any) => {
   };
 
   const handleClickSubmit = () => {
-    setSubmit((prev) => !prev);
+    // setSubmit((prev) => !prev);
     showConfirm();
   };
 

@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect, useState } from "react";
+import { Fragment, useState } from "react";
 import "./style.css";
 
 import questionsData from "../data/questions.json";

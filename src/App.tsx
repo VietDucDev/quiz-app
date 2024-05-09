@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./App.css";
 import StartGameScreen from "./component/StartGameScreen";
 import InGameScreen from "./component/InGameScreen";
